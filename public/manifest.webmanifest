@@ -1,0 +1,26 @@
+{
+  "name": "Tracer — Autonomous Goal Navigation",
+  "short_name": "Tracer",
+  "description": "Autonomous Goal Navigation, Critical Path Method scheduling, and high-velocity flight deck.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#090A0D",
+  "theme_color": "#090A0D",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

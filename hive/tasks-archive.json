@@ -1,0 +1,86 @@
+{
+  "tasks": [
+    {
+      "id": "task-ux-review-plan",
+      "title": "Review Tracer UX and draft improvement plan",
+      "assignee": "planner-mu6ib501",
+      "status": "done",
+      "priority": "high",
+      "deps": [],
+      "doneAt": "2026-09-18T06:12:52.938Z",
+      "archivedAt": "2026-09-29T03:51:01.498Z",
+      "archiveReason": "done",
+      "archiveNote": "Done for 10 days, archived by the hourly sweep."
+    },
+    {
+      "id": "task-ux-review-audit",
+      "title": "Audit and critique UX improvement plan",
+      "assignee": "reviewer-mu6isaxp",
+      "status": "done",
+      "priority": "high",
+      "deps": [
+        "task-ux-review-plan"
+      ],
+      "doneAt": "2026-09-18T06:12:52.938Z",
+      "archivedAt": "2026-09-29T03:51:01.498Z",
+      "archiveReason": "done",
+      "archiveNote": "Done for 10 days, archived by the hourly sweep."
+    },
+    {
+      "id": "task-sprint-a-implementation",
+      "title": "Sprint A: Correctness & Native Integrity Implementation",
+      "assignee": "coder-mu6j41u5",
+      "status": "done",
+      "priority": "high",
+      "deps": [
+        "task-ux-review-audit"
+      ],
+      "doneAt": "2026-09-18T06:12:52.938Z",
+      "archivedAt": "2026-09-29T03:51:01.498Z",
+      "archiveReason": "done",
+      "archiveNote": "Done for 10 days, archived by the hourly sweep."
+    },
+    {
+      "id": "task-sprint-a-review",
+      "title": "Sprint A Code Review & Verification",
+      "assignee": "reviewer-mu6isaxp",
+      "status": "done",
+      "priority": "high",
+      "deps": [
+        "task-sprint-a-implementation"
+      ],
+      "doneAt": "2026-09-18T06:12:52.938Z",
+      "archivedAt": "2026-09-29T03:51:01.498Z",
+      "archiveReason": "done",
+      "archiveNote": "Done for 10 days, archived by the hourly sweep."
+    },
+    {
+      "id": "task-sprint-b-implementation",
+      "title": "Sprint B: Feel & Ergonomics Implementation",
+      "assignee": "coder-mu6j41u5",
+      "status": "done",
+      "priority": "high",
+      "deps": [
+        "task-sprint-a-review"
+      ],
+      "doneAt": "2026-09-18T06:12:52.938Z",
+      "archivedAt": "2026-09-29T03:51:01.498Z",
+      "archiveReason": "done",
+      "archiveNote": "Done for 10 days, archived by the hourly sweep."
+    },
+    {
+      "id": "task-sprint-b-review",
+      "title": "Sprint B Code Review & Verification",
+      "assignee": "reviewer-mu6isaxp",
+      "status": "done",
+      "priority": "high",
+      "deps": [
+        "task-sprint-b-implementation"
+      ],
+      "doneAt": "2026-09-18T06:12:52.938Z",
+      "archivedAt": "2026-09-29T03:51:01.498Z",
+      "archiveReason": "done",
+      "archiveNote": "Done for 10 days, archived by the hourly sweep."
+    }
+  ]
+}

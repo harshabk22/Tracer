@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Tracer</string>
+    <string name="title_activity_main">Tracer</string>
+    <string name="package_name">com.tracer.executive</string>
+    <string name="custom_url_scheme">com.tracer.executive</string>
+</resources>

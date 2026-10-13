@@ -1,0 +1,78 @@
+{
+  "godId": "god",
+  "agents": {
+    "god": {
+      "id": "god",
+      "name": "NEO",
+      "cwd": "/Users/harshavardhanbk/Documents/Agentic-System/Tracer",
+      "isGod": true,
+      "status": "idle",
+      "lastSeen": 1790653865531,
+      "provider": "antigravity",
+      "role": "orchestrator (god)",
+      "capabilities": [],
+      "cwdValid": true,
+      "archived": false
+    },
+    "planner-mu6i9kum": {
+      "id": "planner-mu6i9kum",
+      "name": "Planner",
+      "provider": "claude",
+      "cwd": "/Users/harshavardhanbk/Documents/Agentic-System/Tracer",
+      "role": "a fresh harness",
+      "capabilities": [],
+      "status": "idle",
+      "cwdValid": true,
+      "archived": true,
+      "lastSeen": 1789708566232
+    },
+    "planner-mu6i9yis": {
+      "id": "planner-mu6i9yis",
+      "name": "planner",
+      "provider": "claude",
+      "cwd": "/Users/harshavardhanbk/Documents/Agentic-System/Tracer",
+      "role": "a fresh harness",
+      "capabilities": [],
+      "status": "idle",
+      "cwdValid": true,
+      "archived": true,
+      "lastSeen": 1789708578819
+    },
+    "planner-mu6ib501": {
+      "id": "planner-mu6ib501",
+      "name": "Planner",
+      "provider": "opencode",
+      "cwd": "/Users/harshavardhanbk/Documents/Agentic-System/Tracer",
+      "role": "a fresh harness",
+      "capabilities": [],
+      "status": "idle",
+      "cwdValid": true,
+      "archived": false,
+      "lastSeen": 1790653866698
+    },
+    "reviewer-mu6isaxp": {
+      "id": "reviewer-mu6isaxp",
+      "name": "Reviewer",
+      "provider": "antigravity",
+      "cwd": "/Users/harshavardhanbk/Documents/Agentic-System/Tracer",
+      "role": "The deep reviewer of the plan produced by the planner agent",
+      "capabilities": [],
+      "status": "idle",
+      "cwdValid": true,
+      "archived": false,
+      "lastSeen": 1790653866804
+    },
+    "coder-mu6j41u5": {
+      "id": "coder-mu6j41u5",
+      "name": "coder",
+      "provider": "antigravity",
+      "cwd": "/Users/harshavardhanbk/Documents/Agentic-System/Tracer",
+      "role": "a fresh harness",
+      "capabilities": [],
+      "status": "idle",
+      "cwdValid": true,
+      "archived": false,
+      "lastSeen": 1790653866938
+    }
+  }
+}
